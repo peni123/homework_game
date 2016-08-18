@@ -1,0 +1,54 @@
+*{font-family: arial;}
+
+#container{
+	width: 1200px;
+	height: 600px;
+	background: #efefef;
+}
+#candy {
+	width: 100%;
+	height: 100%;
+	background: url('../pix/candy2.png');
+	position: relative;
+	z-index:1;
+	
+}
+
+#fly {
+	width: 120px;
+	height:100px;
+	position:absolute;
+	background: url('../pix/fly-1.png');
+	background-size: cover;
+	z-index:2;
+	margin-left: 200px;
+}
+
+#swat {
+	width: 200px;
+	height:200px;
+	position:absolute;
+	background: url('../pix/swatter.png');
+	background-size: cover;
+	z-index:3;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+#counters {
+	width: 100px;
+	height:60px;
+	position:absolute;
+	z-index:4;
+	margin-top: 0px;
+	
+}
+#lives{
+	width: 100%;
+	height:30px;
+	color:red;
+}
+#hits {
+	width: 100%;
+	height:30px;
+	color:blue;
+}
